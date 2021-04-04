@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
 
 .Header_logo {
@@ -13,10 +14,44 @@
 
 .Header_logo .title {
     font-weight: 700;
-    font-style: italic;
-    font-size: 24px;
+    font-size: 22px;
 }
 
-.Header_toggle {
+.Header_menu {
     padding-right: 20px;
+    cursor: pointer;
 }
+
+.Header_menu_hamburger1 {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 75px;
+}
+
+.Header_menu_hamburger2 {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 75px;
+}
+
+.Header_menu_hamburger3 {
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 75px;
+}
+
+/* WHEN THE HEADER MENU IS ACTIVE UPON CLICKING THE HAMBURGER  */
+
+/* .Header_menu.active {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: none;
+} */

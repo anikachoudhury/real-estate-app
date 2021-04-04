@@ -1,0 +1,32 @@
+.Villas {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    width: 100%;
+}
+
+.Villas_image img {
+    width: 50%;
+    height: 420px;
+    align-self: flex-start;
+    object-fit: cover;
+    max-width: 100%;
+
+}
+
+.Villas_text {
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+
+.Villas_text_title {
+    display: flex;
+
+}
+
+.Villas_text_title span {
+    font-weight: 700;
+    margin-right: 5px;
+}
